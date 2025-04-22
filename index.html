@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="src/css/styles.css">
+    <title>Sidebar</title>
+</head>
+<body>
+    
+    <nav id="Sidebar">
+        <div id="sidebar_content">
+            <div id="user">
+                <img src="src/images/Avatar.png" alt="Avatar" id="user_avatar">
+                <p id="user_infos">
+                    <span class="item_description">
+                        Admin
+                    </span>
+                    <span class="item_description">
+                        Administrador
+                    </span>
+                </p>
+            </div>
+            <ul id="sideitems">
+                <li class="side_item active">
+                    <a href="#">
+                        <i class="fa-solid fa-chart-column"></i>
+                        <span class="item_description">
+                            Dashboard
+                        </span>
+                    </a>
+                </li>
+    
+                <li class="side_item">
+                    <a href="#">
+                        <i class="fa-solid fa-users"></i>
+                        <span class="item_description">
+                            Usuários
+                        </span>
+                    </a>
+                </li>
+    
+                <li class="side_item">
+                    <a href="#">
+                        <i class="fa-solid fa-coins"></i>
+                        <span class="item_description">
+                            Receitas
+                        </span>
+                    </a>
+                </li>
+    
+                <li class="side_item">
+                    <a href="#">
+                        <i class="fa-solid fa-money-check-dollar"></i>
+                        <span class="item_description">
+                            Tipo de receitas
+                        </span>
+                    </a>
+                </li>
+    
+
+                <li class="side_item">
+                    <a href="#">
+                        <i class="fa-solid fa-gears"></i>
+                        <span class="item_description">
+                            Configurações
+                        </span>
+                    </a>
+                </li>
+
+            </ul>
+    
+            <button id="open_btn">
+                <i id ="open_btn_icon" class="fa-solid fa-chevron-right"></i>
+            </button>
+        </div>
+
+
+        <div id="logout">
+            <button id="logout_btn">
+                <i class="fa-solid fa-right-from-bracket"></i>
+                <span class="item_description">
+                    Sair
+                </span>
+            </button>
+
+        </div>
+
+    </nav>
+
+    <main>
+        <h1>Titulo</h1>
+    </main>
+    <script src="src/javascript/script.js"></script>
+</body>
+</html>
