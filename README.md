@@ -16,8 +16,4 @@ Este projeto é uma implementação prática de uma sidebar (menu lateral) respo
 - Design responsivo que se adapta a diferentes tamanhos de tela.
 - Transições suaves para uma melhor experiência do usuário.
 
-## 🚀 Como Executar o Projeto
 
-1. Clone o repositório:
-   ```bash
-   git clone https://github.com/seu-usuario/nome-do-repositorio.git
